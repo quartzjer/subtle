@@ -1,6 +1,9 @@
+var crypto = require("crypto");
+var Promise = require("node-promise").Promise;
+
 var generateKey = function generateKey(){
   return new Promise(function rejecter(resolve,reject){
-    reject(new Error("operation not supported"));
+    resolve({"foo":"bar"});
   });
 };
 
